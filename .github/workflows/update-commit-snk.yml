@@ -2,10 +2,7 @@ name: On Commit Push
 
 # This workflow is used to trigger the unit test workflow on commit push
 
-on:
-  push:
-    branches-ignore:
-      - 'master'    
+on: push
 
 jobs:
   update-commit-snk:
